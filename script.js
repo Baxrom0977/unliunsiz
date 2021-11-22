@@ -12,7 +12,7 @@ for (let i = 0; i < str.length; i++) {
 }
 console.log(`siz kirit gan gapda shuncha unli harflat mavjud ${son}`);
 let son2 = 0
-let unli2 = ["a", "u", "e", "o", "i", " ", ",", "!", "."]
+let unli2 = ["a", "u", "e", "o", "i", " ", ",", "!", ".","?" , "(", ")", "-" ]
 for (let i = 0; i < str.length; i++) {
     for (let j = 0; j < unli2.length; j++) {
         if (unli2[j] == str[i]) {
